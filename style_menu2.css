@@ -1,0 +1,53 @@
+
+
+h1 {
+	color: #191070;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	
+}
+
+#menu {
+	background: url(img/menu_back.jpg) repeat-x;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+#menu ul {
+	list-style: none;
+	padding-left: 0px;
+	display: block;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#menu ul li {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: #ffffff;
+	line-height: 56px;
+	text-align: center;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 0px;
+}
+
+#menu ul li a:hover {
+	text-decoration: none;
+	background: url(img/menu_hover.png) top center no-repeat;
+}
+
+
+

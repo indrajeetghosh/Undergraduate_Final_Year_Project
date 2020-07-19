@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_Menu.master.cs" Inherits="Admin_Admin_Menu" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link href="~/style_menu.css" rel="stylesheet" type="text/css" media="screen" />
+    <title> Admin </title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+        
+<body>
+    <form id="form1" runat="server">
+        <div id="menu" style="margin-top:100px">
+            	<ul>
+                	<li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Admin/Home.aspx" 
+                            Width="92px">Home</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink2" runat="server" 
+                            NavigateUrl="~/Admin/Bus_Details.aspx" Width="127px">Bus Details</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink3" runat="server" 
+                            NavigateUrl="~/Admin/Entry_Bus.aspx" Width="129px">Entry Bus</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink6" runat="server" 
+                            NavigateUrl="~/Admin/User_Details.aspx" Width="166px">User_Details</asp:HyperLink></li>
+                    
+                    <li><asp:HyperLink ID="HyperLink1" runat="server" 
+                            NavigateUrl="~/Admin/Change_Password.aspx" Width="207px">Change Password</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin/Logout.aspx" 
+                            Width="142px">Logout</asp:HyperLink></li>
+                    
+                </ul>
+            </div>
+
+    <br />
+    <div align="center" style="margin-top:10px">
+     <hr />
+      <hr />
+    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" 
+        ForeColor="Red" ></asp:Label>
+        <hr />
+        <hr />
+        </div>
+    
+    <div >
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

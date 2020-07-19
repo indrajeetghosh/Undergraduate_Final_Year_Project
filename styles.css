@@ -1,0 +1,414 @@
+
+
+*{
+	padding: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img, fieldset, a img {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ac2700;
+	text-decoration: underline;
+}
+
+body {
+	color: #666666;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(img/bg.jpg) repeat;
+}
+
+.clear {
+	clear:both;
+}
+
+h1 {
+	color: #191070;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	
+}
+h2 {
+	color: #120070;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	
+}
+
+
+#wrap {
+	width: 924px;
+	margin: 0 auto;
+	padding-top: 18px;
+}
+
+#logo {
+	width: 1000px;
+	height: 150px;
+	background: url(img/lo.png) no-repeat 0px 0px;
+	}
+
+#logo a {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#logo a small {
+	font-size: 12px;
+	color: #ffffff;
+}
+
+#logo_text{
+	padding: 34px 0 35px 42px;
+}
+
+#content {
+	padding-top: 19px
+}
+
+#content_top {
+	background:url(img/content_top.png) no-repeat 0px 0px;
+	height: 15px;
+}
+
+#menu {
+	background: url(img/menu_back.jpg) repeat-x;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+#menu ul {
+	list-style: none;
+	padding-left: 0px;
+	display: block;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#menu ul li {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: #ffffff;
+	font: 18px Arial, Helvetica, sans-serif;
+	width: 20%;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	
+}
+
+#menu ul li a:hover {
+	text-decoration: none;
+	background: url(img/menu_hover.png) top center no-repeat;
+}
+
+
+
+#content_text {
+	background: #ffffff;
+	padding: 54px 13px 0 13px;
+	
+}
+
+#header {
+	background: url(img/header_bg.jpg) no-repeat top left;
+	height: 241px;
+}
+
+#shadow {
+	background: url(img/shadow.png);
+	height: 41px;
+}
+
+#col1, #col2, #col3 {
+	float: left;
+	width: 286px;
+}
+
+#col2 {
+	padding: 0 20px;
+}
+
+.text_shadow {
+	background: url(img/shadow2.png) no-repeat top left;
+	padding: 20px 12px 0 12px;
+		
+}
+
+#box2{
+	padding-top: 20px;
+}
+
+#box2_top {
+	background: url(img/box2_top.jpg) no-repeat top left;
+	height: 10px
+}
+
+#box2_text {
+	background: #ebebeb;
+	padding: 0px 15px;
+}
+
+#box2_col1{
+	width: 635px;
+	float: left;
+}
+
+#box2_col2{
+	width: 195px;
+	float: right;
+	min-height: 56px;
+}
+
+#box2_col2 a{
+	background: url(img/download.jpg) no-repeat top left;
+	width: 195px;
+	height: 56px;
+	display: block;
+	font: 18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 56px;
+}
+
+#box2_bot {
+	background: url(img/box2_bot.jpg) no-repeat top left;
+	height: 10px;
+}
+
+#last_box{
+	padding-top: 13px;
+	padding-bottom: 5px;
+}
+
+#last_box h1{
+	text-align: left;
+	padding-left: 10px;
+}
+
+#last_box_1{
+	float: left;
+	padding-left: 10px;
+	width: 415px;
+}
+
+#last_box_2{
+	float: right;
+	padding-right: 10px;
+	width: 415px;
+}
+
+#content_bot {
+	background:url(img/content_bot.png) no-repeat 0px 0px;
+	height: 8px;
+}
+
+#shadow_con_bot{
+	background: url(img/shadow3.png) no-repeat top left;
+	height: 39px;
+}
+
+#footer_top{
+	width: 841px;
+	margin: 0 auto;
+	background: url(img/footer_bor.png) no-repeat bottom;
+	padding-top: 20px;
+}
+
+#footer_top h3{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #ac2700;
+	font-weight: normal;
+	padding-left: 20px;
+}
+
+#footer_top a{
+	color: #303030;
+	font-weight: bold;
+}
+
+#footer_top a:hover{
+	color: #ac2700;
+}
+
+#footer_top p{
+	color: #303030;
+}
+
+#footer_column1, #footer_column2, #footer_column3{
+	width: 226px;
+	float: left;
+}
+
+.footer_text{
+	background: url(img/footer_bor.png) no-repeat top left;
+	width: 226px;
+	padding: 10px 0px 10px 0px;
+}
+
+#footer_column2{
+	padding: 0px 87px 0px 75px;
+}
+
+.foot_pad{
+    padding-left: 45px;
+	padding-top: 10px;
+}
+
+.link1{
+    background: url(img/link1.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link2{
+    background: url(img/link2.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link3{
+    background: url(img/link3.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link4{
+    background: url(img/link4.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.ls{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ls li{
+    background: url(img/ls1.gif) no-repeat 0px 6px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+
+#footer_bot{
+	text-align: center;
+	padding: 20px;
+}
+
+#footer_bot p, #footer_bot a{
+	color: #303030;
+	font-weight: normal; 
+}
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(img/top.jpg) no-repeat;
+    width: 900px;
+
+    height: 241px;
+    margin:0 auto;
+	margin-top: 1px;
+}
+
+#slider {
+	position:relative;
+    width: 900px;
+    height: 241px;
+	background:url(img/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(img/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(img/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+	
+	

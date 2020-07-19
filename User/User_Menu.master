@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="User_Menu.master.cs" Inherits="User_User_Menu" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link href="~/style_menu2.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+    <title>User</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+       </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+    <div align="center">
+    <hr />
+    <hr />
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" 
+            ForeColor="#009900"></asp:Label>
+    <hr />
+    <hr />
+    </div>
+ 
+    <div id="menu">
+            	<ul>
+                	<li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/User/Home.aspx" 
+                            Width="150px">Home</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink2" runat="server" 
+                            NavigateUrl="~/User/Bus_Details.aspx" Width="150px">Bus Details</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink3" runat="server" 
+                            NavigateUrl="~/User/Search_Bus.aspx" Width="150px">Book Seat</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink1" runat="server" 
+                            NavigateUrl="~/User/Change_Password.aspx" Width="200px">Change Password</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/User/Logout.aspx" 
+                            Width="150px">Logout</asp:HyperLink></li>
+                    
+                </ul>
+            </div>
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
